@@ -1,4 +1,5 @@
 import { FiMail, FiGithub, FiLinkedin } from "react-icons/fi";
+
 function App() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#0E0E0E] text-white">
@@ -10,25 +11,24 @@ function App() {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 z-50 flex w-full items-center justify-between px-8 py-8 md:px-20 backdrop-blur-sm">
         <h1 className="text-xl font-bold tracking-[0.3em]">DA.</h1>
-<ul className="hidden gap-10 text-sm text-gray-300 md:flex">
-  {[
-    { name: "About Me", id: "about" },
-    { name: "Skills", id: "skills" },
-    { name: "Activities", id: "activities" },
-    { name: "Projects", id: "projects" },
-    { name: "Certificates", id: "certificates" },
-    { name: "Contact", id: "contact" }
-  ].map((item) => (
-    <a
-      key={item.id}
-      href={`#${item.id}`}
-      className="cursor-pointer transition-all hover:text-pink-300 hover:scale-105"
-    >
-      {item.name}
-    </a>
-  ))}
-</ul>
-
+        <ul className="hidden gap-10 text-sm text-gray-300 md:flex">
+          {[
+            { name: "About Me", id: "about" },
+            { name: "Skills", id: "skills" },
+            { name: "Activities", id: "activities" },
+            { name: "Projects", id: "projects" },
+            { name: "Certificates", id: "certificates" },
+            { name: "Contact", id: "contact" }
+          ].map((item) => (
+            <a
+              key={item.id}
+              href={`#${item.id}`}
+              className="cursor-pointer transition-all hover:text-pink-300 hover:scale-105"
+            >
+              {item.name}
+            </a>
+          ))}
+        </ul>
       </nav>
 
       {/* Hero */}
@@ -59,71 +59,67 @@ function App() {
         </p>
       </section>
 
-    {/* Skills Section */}
-<section
-  id="skills"
-  className="relative z-10 px-6 py-32 md:px-20"
->
-  <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">
-    Skills
-  </h2>
+      {/* Skills Section */}
+      <section id="skills" className="relative z-10 px-6 py-32 md:px-20">
+        <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">
+          Skills
+        </h2>
 
-  <p className="mt-6 text-center text-gray-400 text-lg">
-    Technical and soft skills I’ve developed throughout my journey.
-  </p>
+        <p className="mt-6 text-center text-gray-400 text-lg">
+          Technical and soft skills I’ve developed throughout my journey.
+        </p>
 
-  {/* Technical Skills */}
-  <h3 className="mt-16 text-2xl font-semibold text-pink-300 text-center">
-    Technical Skills
-  </h3>
+        {/* Technical Skills */}
+        <h3 className="mt-16 text-2xl font-semibold text-pink-300 text-center">
+          Technical Skills
+        </h3>
 
-  <div className="mt-10 grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-    {[
-      "HTML/CSS",
-      "PHP",
-      "JavaScript",
-      "React",
-      "Tailwind CSS",
-      "UI/UX",
-      "Git",
-      "SQL",
-     "Java",
-      "Firebase",
-      "Android Studio"
-    ].map((skill) => (
-      <div
-        key={skill}
-        className="group flex flex-col items-center rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]"
-      >
-        <h3 className="text-lg font-semibold">{skill}</h3>
-      </div>
-    ))}
-  </div>
+        <div className="mt-10 grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {[
+            "HTML/CSS",
+            "PHP",
+            "JavaScript",
+            "React",
+            "Tailwind CSS",
+            "UI/UX",
+            "Git",
+            "SQL",
+            "Java",
+            "Firebase",
+            "Android Studio"
+          ].map((skill) => (
+            <div
+              key={skill}
+              className="group flex flex-col items-center rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]"
+            >
+              <h3 className="text-lg font-semibold">{skill}</h3>
+            </div>
+          ))}
+        </div>
 
-  {/* Soft Skills */}
-  <h3 className="mt-20 text-2xl font-semibold text-pink-300 text-center">
-    Soft Skills
-  </h3>
+        {/* Soft Skills */}
+        <h3 className="mt-20 text-2xl font-semibold text-pink-300 text-center">
+          Soft Skills
+        </h3>
 
-  <div className="mt-10 grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-    {[
-      "Communication",
-      "Teamwork",
-      "Problem Solving",
-      "Time Management",
-      "Leadership",
-      "Adaptability"
-    ].map((skill) => (
-      <div
-        key={skill}
-        className="group flex flex-col items-center rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]"
-      >
-        <h3 className="text-lg font-semibold">{skill}</h3>
-      </div>
-    ))}
-  </div>
-</section>
-
+        <div className="mt-10 grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {[
+            "Communication",
+            "Teamwork",
+            "Problem Solving",
+            "Time Management",
+            "Leadership",
+            "Adaptability"
+          ].map((skill) => (
+            <div
+              key={skill}
+              className="group flex flex-col items-center rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]"
+            >
+              <h3 className="text-lg font-semibold">{skill}</h3>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Activities Section */}
       <section id="activities" className="relative z-10 px-6 py-32 md:px-20">
@@ -212,18 +208,16 @@ function App() {
 
         <div className="mt-16 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
 
-  {/* Project 1 */}
-  <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
-    <div className="h-40 w-full rounded-xl overflow-hidden">
-      <img src="/images/security_report.png" className="h-full w-full object-cover" />
-    </div>
-    <h3 className="mt-6 text-xl font-semibold">Simple Web Security Scanner</h3>
-    <p className="mt-3 text-gray-400 text-sm leading-6">
-      A Python-based automation tool that audits web applications for essential security headers, HTTPS configuration, and generates interactive HTML reports.
-    </p>
-  </div>
-
-</div>
+          {/* Project 1 */}
+          <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
+            <div className="h-40 w-full rounded-xl overflow-hidden">
+              <img src="/images/project1.png" className="h-full w-full object-cover" />
+            </div>
+            <h3 className="mt-6 text-xl font-semibold">Simple Web Security Scanner</h3>
+            <p className="mt-3 text-gray-400 text-sm leading-6">
+              A Python-based automation tool that audits web applications for essential security headers, HTTPS configuration, and generates interactive HTML reports.
+            </p>
+          </div>
 
           {/* Project 2 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
@@ -290,75 +284,72 @@ function App() {
         </div>
       </section>
 
-    {/* Contact Section */}
-<section
-  id="contact"
-  className="relative z-10 px-6 py-32 md:px-20"
->
-  <h2 className="text-center text-5xl font-bold tracking-[-2px]">
-    Contact
-  </h2>
+      {/* Contact Section */}
+      <section id="contact" className="relative z-10 px-6 py-32 md:px-20">
+        <h2 className="text-center text-5xl font-bold tracking-[-2px]">
+          Contact
+        </h2>
 
-  <p className="mt-5 text-center text-gray-400">
-    Let's connect. Feel free to reach out anytime.
-  </p>
+        <p className="mt-5 text-center text-gray-400">
+          Let's connect. Feel free to reach out anytime.
+        </p>
 
-  <div className="mx-auto mt-16 grid max-w-5xl gap-6 md:grid-cols-3">
+        <div className="mx-auto mt-16 grid max-w-5xl gap-6 md:grid-cols-3">
 
-    {/* Email */}
-    <a
-      href="mailto:dimamalmanea@gmail.com"
-      className="group rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-md transition duration-300 hover:-translate-y-2 hover:border-pink-400 hover:bg-white/10"
-    >
-      <FiMail className="text-4xl text-pink-300 transition group-hover:scale-110" />
+          {/* Email */}
+          <a
+            href="mailto:dimamalmanea@gmail.com"
+            className="group rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-md transition duration-300 hover:-translate-y-2 hover:border-pink-400 hover:bg-white/10"
+          >
+            <FiMail className="text-4xl text-pink-300 transition group-hover:scale-110" />
 
-      <h3 className="mt-8 text-2xl font-semibold">
-        Email
-      </h3>
+            <h3 className="mt-8 text-2xl font-semibold">
+              Email
+            </h3>
 
-      <p className="mt-3 break-all text-gray-400">
-        dimamalmanea@gmail.com
-      </p>
-    </a>
+            <p className="mt-3 break-all text-gray-400">
+              dimamalmanea@gmail.com
+            </p>
+          </a>
 
-    {/* LinkedIn */}
-    <a
-      href="https://linkedin.com/in/dema-a-116412368"
-      target="_blank"
-      rel="noreferrer"
-      className="group rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-md transition duration-300 hover:-translate-y-2 hover:border-pink-400 hover:bg-white/10"
-    >
-      <FiLinkedin className="text-4xl text-pink-300 transition group-hover:scale-110" />
+          {/* LinkedIn */}
+          <a
+            href="https://linkedin.com/in/dema-a-116412368"
+            target="_blank"
+            rel="noreferrer"
+            className="group rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-md transition duration-300 hover:-translate-y-2 hover:border-pink-400 hover:bg-white/10"
+          >
+            <FiLinkedin className="text-4xl text-pink-300 transition group-hover:scale-110" />
 
-      <h3 className="mt-8 text-2xl font-semibold">
-        LinkedIn
-      </h3>
+            <h3 className="mt-8 text-2xl font-semibold">
+              LinkedIn
+            </h3>
 
-      <p className="mt-3 text-gray-400">
-        linkedin.com/in/dema-a-116412368
-      </p>
-    </a>
+            <p className="mt-3 text-gray-400">
+              linkedin.com/in/dema-a-116412368
+            </p>
+          </a>
 
-    {/* GitHub */}
-    <a
-      href="https://github.com"
-      target="_blank"
-      rel="noreferrer"
-      className="group rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-md transition duration-300 hover:-translate-y-2 hover:border-pink-400 hover:bg-white/10"
-    >
-      <FiGithub className="text-4xl text-pink-300 transition group-hover:scale-110" />
+          {/* GitHub */}
+          <a
+            href="https://github.com/de1mu"
+            target="_blank"
+            rel="noreferrer"
+            className="group rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-md transition duration-300 hover:-translate-y-2 hover:border-pink-400 hover:bg-white/10"
+          >
+            <FiGithub className="text-4xl text-pink-300 transition group-hover:scale-110" />
 
-      <h3 className="mt-8 text-2xl font-semibold">
-        GitHub
-      </h3>
+            <h3 className="mt-8 text-2xl font-semibold">
+              GitHub
+            </h3>
 
-      <p className="mt-3 text-gray-400">
-        Coming Soon
-      </p>
-    </a>
+            <p className="mt-3 text-gray-400">
+              github.com/de1mu
+            </p>
+          </a>
 
-  </div>
-</section>
+        </div>
+      </section>
 
     </main>
   );
