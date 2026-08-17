@@ -212,16 +212,18 @@ function App() {
 
         <div className="mt-16 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
 
-          {/* Project 1 */}
-          <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
-            <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/project1.png" className="h-full w-full object-cover" />
-            </div>
-            <h3 className="mt-6 text-xl font-semibold">Project One</h3>
-            <p className="mt-3 text-gray-400 text-sm leading-6">
-              Description of your first project goes here.
-            </p>
-          </div>
+  {/* Project 1 */}
+  <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
+    <div className="h-40 w-full rounded-xl overflow-hidden">
+      <img src="/images/security_report.png" className="h-full w-full object-cover" />
+    </div>
+    <h3 className="mt-6 text-xl font-semibold">Simple Web Security Scanner</h3>
+    <p className="mt-3 text-gray-400 text-sm leading-6">
+      A Python-based automation tool that audits web applications for essential security headers, HTTPS configuration, and generates interactive HTML reports.
+    </p>
+  </div>
+
+</div>
 
           {/* Project 2 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
