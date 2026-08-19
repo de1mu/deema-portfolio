@@ -210,25 +210,29 @@ function App() {
 
           {/* Project 1 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
-            <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/project1.png" className="h-full w-full object-cover" />
-            </div>
-            <h3 className="mt-6 text-xl font-semibold">Simple Web Security Scanner</h3>
-            <p className="mt-3 text-gray-400 text-sm leading-6">
-              A Python-based automation tool that audits web applications for essential security headers, HTTPS configuration, and generates interactive HTML reports.
-            </p>
-          </div>
+  <a href="https://github.com/de1mu/web_security_scanner" target="_blank" rel="noopener noreferrer">
+    <div className="h-40 w-full rounded-xl overflow-hidden cursor-pointer">
+      <img src="/images/security-scanner.png" className="h-full w-full object-cover" />
+    </div>
+  </a>
+  <h3 className="mt-6 text-xl font-semibold">Simple Web Security Scanner</h3>
+  <p className="mt-3 text-gray-400 text-sm leading-6">
+    A Python automation tool that audits websites for HTTPS support, essential security headers, and server info leaks, then generates a clean HTML security report.
+  </p>
+</div>
 
           {/* Project 2 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
-            <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/project2.png" className="h-full w-full object-cover" />
-            </div>
-            <h3 className="mt-6 text-xl font-semibold">Project Two</h3>
-            <p className="mt-3 text-gray-400 text-sm leading-6">
-              Description of your second project goes here.
-            </p>
-          </div>
+  <a href="https://de1mu.github.io/Himmah-Task-Manager/" target="_blank" rel="noopener noreferrer">
+    <div className="h-40 w-full rounded-xl overflow-hidden cursor-pointer">
+      <img src="/images/himmah-preview.png" alt="Himmah Task Manager" className="h-full w-full object-cover" />
+    </div>
+  </a>
+  <h3 className="mt-6 text-xl font-semibold">Himmah | Task Manager</h3>
+  <p className="mt-3 text-gray-400 text-sm leading-6">
+    A interactive task manager that uses gamification (XP points) to boost daily productivity, with real-time Firebase syncing and responsive design.
+  </p>
+</div>
 
           {/* Project 3 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
