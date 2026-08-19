@@ -212,7 +212,7 @@ function App() {
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
   <a href="https://github.com/de1mu/web_security_scanner" target="_blank" rel="noopener noreferrer">
     <div className="h-40 w-full rounded-xl overflow-hidden cursor-pointer">
-      <img src="/images/security-scanner.png" className="h-full w-full object-cover" />
+      <img src="images/security-scanner.png" className="h-full w-full object-cover" />
     </div>
   </a>
   <h3 className="mt-6 text-xl font-semibold">Simple Web Security Scanner</h3>
@@ -225,7 +225,7 @@ function App() {
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
   <a href="https://de1mu.github.io/Himmah-Task-Manager/" target="_blank" rel="noopener noreferrer">
     <div className="h-40 w-full rounded-xl overflow-hidden cursor-pointer">
-      <img src="/images/himmah-preview.png" alt="Himmah Task Manager" className="h-full w-full object-cover" />
+      <img src="images/himmah-preview.png" alt="Himmah Task Manager" className="h-full w-full object-cover" />
     </div>
   </a>
   <h3 className="mt-6 text-xl font-semibold">Himmah | Task Manager</h3>
