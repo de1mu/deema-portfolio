@@ -11,6 +11,7 @@ function App() {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 z-50 flex w-full items-center justify-between px-8 py-8 md:px-20 backdrop-blur-sm">
         <h1 className="text-xl font-bold tracking-[0.3em]">DA.</h1>
+
         <ul className="hidden gap-10 text-sm text-gray-300 md:flex">
           {[
             { name: "About Me", id: "about" },
@@ -33,8 +34,13 @@ function App() {
 
       {/* Hero */}
       <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 text-center">
-        <h1 className="text-7xl font-black tracking-[-5px] md:text-9xl">DEEMA</h1>
-        <h1 className="text-7xl font-light tracking-[-5px] text-pink-300 md:text-9xl">ALMANEA</h1>
+        <h1 className="text-7xl font-black tracking-[-5px] md:text-9xl">
+          DEEMA
+        </h1>
+
+        <h1 className="text-7xl font-light tracking-[-5px] text-pink-300 md:text-9xl">
+          ALMANEA
+        </h1>
 
         <p className="mt-10 text-2xl font-semibold text-gray-200">
           Senior Information Technology Student
@@ -42,13 +48,16 @@ function App() {
 
         <p className="mt-5 max-w-xl text-lg leading-8 text-gray-400">
           Building technology with curiosity
-          <br />and continuous learning.
+          <br />
+          and continuous learning.
         </p>
       </section>
 
       {/* About Section */}
       <section id="about" className="relative z-10 px-6 py-32 md:px-20">
-        <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">About Me</h2>
+        <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">
+          About Me
+        </h2>
 
         <p className="mt-10 text-lg leading-8 text-gray-300 md:text-xl text-center max-w-3xl mx-auto">
           I am <span className="text-pink-300 font-semibold">Dima Almanea</span>, a Senior Information Technology student passionate about building modern digital experiences.
@@ -123,7 +132,9 @@ function App() {
 
       {/* Activities Section */}
       <section id="activities" className="relative z-10 px-6 py-32 md:px-20">
-        <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">Activities</h2>
+        <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">
+          Activities
+        </h2>
 
         <p className="mt-6 text-center text-gray-400 text-lg">
           My participation in university student clubs and events.
@@ -134,9 +145,14 @@ function App() {
           {/* IEEE */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/deema-portfolio/images/ieeeClub.jpg" className="h-full w-full object-cover" />
+              <img
+                src="/images/ieeeClub.jpg"
+                className="h-full w-full object-cover"
+              />
             </div>
+
             <h3 className="mt-6 text-xl font-semibold">IEEE Club</h3>
+
             <p className="mt-3 text-gray-400 text-sm leading-6">
               Participation in engineering and technology events.
             </p>
@@ -145,9 +161,14 @@ function App() {
           {/* TWUIQ */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/deema-portfolio/images/tuwiq.jpg" className="h-full w-full object-cover" />
+              <img
+                src="/images/tuwiq.jpg"
+                className="h-full w-full object-cover"
+              />
             </div>
+
             <h3 className="mt-6 text-xl font-semibold">TWUIQ Club</h3>
+
             <p className="mt-3 text-gray-400 text-sm leading-6">
               Contributions to tech innovation and creativity.
             </p>
@@ -156,9 +177,14 @@ function App() {
           {/* IMAMU */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/deema-portfolio/images/cyb.jpg" className="h-full w-full object-cover" />
+              <img
+                src="/images/cyb.jpg"
+                className="h-full w-full object-cover"
+              />
             </div>
+
             <h3 className="mt-6 text-xl font-semibold">CyberSecClub</h3>
+
             <p className="mt-3 text-gray-400 text-sm leading-6">
               Volunteering and university-wide events.
             </p>
@@ -167,9 +193,14 @@ function App() {
           {/* ROBOTICS */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/deema-portfolio/images/robtix.jpg" className="h-full w-full object-cover" />
+              <img
+                src="/images/robtix.jpg"
+                className="h-full w-full object-cover"
+              />
             </div>
+
             <h3 className="mt-6 text-xl font-semibold">Robotics Club</h3>
+
             <p className="mt-3 text-gray-400 text-sm leading-6">
               Robotics and automation activities.
             </p>
@@ -178,9 +209,14 @@ function App() {
           {/* OOS */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/deema-portfolio/images/oss.jpg" className="h-full w-full object-cover" />
+              <img
+                src="/images/oss.jpg"
+                className="h-full w-full object-cover"
+              />
             </div>
+
             <h3 className="mt-6 text-xl font-semibold">OSS VISION</h3>
+
             <p className="mt-3 text-gray-400 text-sm leading-6">
               Event management and leadership.
             </p>
@@ -189,9 +225,14 @@ function App() {
           {/* EJAD */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/deema-portfolio/images/ejad.jpg" className="h-full w-full object-cover" />
+              <img
+                src="/images/ejad.jpg"
+                className="h-full w-full object-cover"
+              />
             </div>
+
             <h3 className="mt-6 text-xl font-semibold">EJAD Club</h3>
+
             <p className="mt-3 text-gray-400 text-sm leading-6">
               Creativity and student empowerment.
             </p>
@@ -202,47 +243,86 @@ function App() {
 
       {/* Projects Section */}
       <section id="projects" className="relative z-10 px-6 py-32 md:px-20">
-        <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">Projects</h2>
+        <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">
+          Projects
+        </h2>
 
-        <p className="mt-6 text-center text-gray-400 text-lg">A selection of my recent work.</p>
+        <p className="mt-6 text-center text-gray-400 text-lg">
+          A selection of my recent work.
+        </p>
 
         <div className="mt-16 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
 
           {/* Project 1 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
-  <a href="https://github.com/de1mu/web_security_scanner" target="_blank" rel="noopener noreferrer">
-    <div className="h-40 w-full rounded-xl overflow-hidden cursor-pointer">
-      <img src="/deema-portfolio/images/project1.png" className="h-full w-full object-cover" />
-    </div>
-  </a>
-  <h3 className="mt-6 text-xl font-semibold">Simple Web Security Scanner</h3>
-  <p className="mt-3 text-gray-400 text-sm leading-6">
-Python | Requests
-A Python-based tool for checking basic website security configurations and generating security reports. </p>
-</div>
+            <a
+              href="https://github.com/de1mu/web_security_scanner"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="h-40 w-full rounded-xl overflow-hidden cursor-pointer">
+                <img
+                  src="/images/project1.png"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </a>
+
+            <h3 className="mt-6 text-xl font-semibold">
+              Simple Web Security Scanner
+            </h3>
+
+            <p className="mt-3 text-gray-400 text-sm leading-6">
+              Python | Requests
+              <br />
+              A Python-based tool for checking basic website security configurations and generating security reports.
+            </p>
+          </div>
 
           {/* Project 2 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
-  <a href="https://de1mu.github.io/Himmah-Task-Manager/" target="_blank" rel="noopener noreferrer">
-    <div className="h-40 w-full rounded-xl overflow-hidden cursor-pointer">
-      <img src="/deema-portfolio/images/project2.png" alt="Himmah Task Manager" className="h-full w-full object-cover" />
-    </div>
-  </a>
-  <h3 className="mt-6 text-xl font-semibold">Himmah | Task Manager</h3>
-  <p className="mt-3 text-gray-400 text-sm leading-6">
-HTML | CSS | JavaScript | Firebase
-A web-based task manager with productivity and gamification features.  </p>
-</div>
+            <a
+              href="https://de1mu.github.io/Himmah-Task-Manager/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="h-40 w-full rounded-xl overflow-hidden cursor-pointer">
+                <img
+                  src="/images/project2.png"
+                  alt="Himmah Task Manager"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </a>
+
+            <h3 className="mt-6 text-xl font-semibold">
+              Himmah | Task Manager
+            </h3>
+
+            <p className="mt-3 text-gray-400 text-sm leading-6">
+              HTML | CSS | JavaScript | Firebase
+              <br />
+              A web-based task manager with productivity and gamification features.
+            </p>
+          </div>
 
           {/* Project 3 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/deema-portfolio/images/p3.png" className="h-full w-full object-cover" />
+              <img
+                src="/images/p3.png"
+                className="h-full w-full object-cover"
+              />
             </div>
-            <h3 className="mt-6 text-xl font-semibold">IT Risk & Compliance Assessment</h3>
+
+            <h3 className="mt-6 text-xl font-semibold">
+              IT Risk & Compliance Assessment
+            </h3>
+
             <p className="mt-3 text-gray-400 text-sm leading-6">
               Excel | Power BI | ISO/IEC 27001
-Cybersecurity risk assessment and compliance gap analysis for a simulated university information system.
+              <br />
+              Cybersecurity risk assessment and compliance gap analysis for a simulated university information system.
             </p>
           </div>
 
@@ -251,7 +331,9 @@ Cybersecurity risk assessment and compliance gap analysis for a simulated univer
 
       {/* Certificates Section */}
       <section id="certificates" className="relative z-10 px-6 py-32 md:px-20">
-        <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">Certificates</h2>
+        <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">
+          Certificates
+        </h2>
 
         <p className="mt-6 text-center text-gray-400 text-lg">
           Achievements and certifications I've earned.
@@ -262,28 +344,55 @@ Cybersecurity risk assessment and compliance gap analysis for a simulated univer
           {/* Certificate 1 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/deema-portfolio/images/s1.jpg" className="h-full w-full object-cover" />
+              <img
+                src="/images/s1.jpg"
+                className="h-full w-full object-cover"
+              />
             </div>
-            <h3 className="mt-6 text-xl font-semibold">Introduction to Cybersecurity</h3>
-            <p className="mt-3 text-gray-400 text-sm leading-6">Issued by: Cisco Networking Academy</p>
+
+            <h3 className="mt-6 text-xl font-semibold">
+              Introduction to Cybersecurity
+            </h3>
+
+            <p className="mt-3 text-gray-400 text-sm leading-6">
+              Issued by: Cisco Networking Academy
+            </p>
           </div>
 
           {/* Certificate 2 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/deema-portfolio/images/s2.jpg" className="h-full w-full object-cover" />
+              <img
+                src="/images/s2.jpg"
+                className="h-full w-full object-cover"
+              />
             </div>
-            <h3 className="mt-6 text-xl font-semibold">Fundamentals of Artificial Intelligence</h3>
-            <p className="mt-3 text-gray-400 text-sm leading-6">Issued by: SDAIA | سدايا</p>
+
+            <h3 className="mt-6 text-xl font-semibold">
+              Fundamentals of Artificial Intelligence
+            </h3>
+
+            <p className="mt-3 text-gray-400 text-sm leading-6">
+              Issued by: SDAIA | سدايا
+            </p>
           </div>
 
           {/* Certificate 3 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/cert3.png" className="h-full w-full object-cover" />
+              <img
+                src="/images/cert3.png"
+                className="h-full w-full object-cover"
+              />
             </div>
-            <h3 className="mt-6 text-xl font-semibold">Certificate Title</h3>
-            <p className="mt-3 text-gray-400 text-sm leading-6">Issued by: Organization Name</p>
+
+            <h3 className="mt-6 text-xl font-semibold">
+              Certificate Title
+            </h3>
+
+            <p className="mt-3 text-gray-400 text-sm leading-6">
+              Issued by: Organization Name
+            </p>
           </div>
 
         </div>
