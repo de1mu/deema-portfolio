@@ -51,7 +51,7 @@ function App() {
         <h2 className="text-center text-4xl font-bold tracking-wide text-pink-300 md:text-5xl">About Me</h2>
 
         <p className="mt-10 text-lg leading-8 text-gray-300 md:text-xl text-center max-w-3xl mx-auto">
-          I am <span className="text-pink-300 font-semibold">Deema Almanea</span>, a Senior Information Technology student passionate about building modern digital experiences.
+          I am <span className="text-pink-300 font-semibold">Dima Almanea</span>, a Senior Information Technology student passionate about building modern digital experiences.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-gray-400 md:text-xl text-center max-w-3xl mx-auto">
@@ -134,7 +134,7 @@ function App() {
           {/* IEEE */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/ieee.png" className="h-full w-full object-cover" />
+              <img src="/deema-portfolio/images/ieeeClub.jpg" className="h-full w-full object-cover" />
             </div>
             <h3 className="mt-6 text-xl font-semibold">IEEE Club</h3>
             <p className="mt-3 text-gray-400 text-sm leading-6">
@@ -145,7 +145,7 @@ function App() {
           {/* TWUIQ */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/twuiq.png" className="h-full w-full object-cover" />
+              <img src="/deema-portfolio/images/tuwiq.jpg" className="h-full w-full object-cover" />
             </div>
             <h3 className="mt-6 text-xl font-semibold">TWUIQ Club</h3>
             <p className="mt-3 text-gray-400 text-sm leading-6">
@@ -156,9 +156,9 @@ function App() {
           {/* IMAMU */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/imamu.png" className="h-full w-full object-cover" />
+              <img src="/deema-portfolio/images/cyb.jpg" className="h-full w-full object-cover" />
             </div>
-            <h3 className="mt-6 text-xl font-semibold">IMAMU Club</h3>
+            <h3 className="mt-6 text-xl font-semibold">CyberSecClub</h3>
             <p className="mt-3 text-gray-400 text-sm leading-6">
               Volunteering and university-wide events.
             </p>
@@ -167,7 +167,7 @@ function App() {
           {/* ROBOTICS */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/robotics.png" className="h-full w-full object-cover" />
+              <img src="/deema-portfolio/images/robtix.jpg" className="h-full w-full object-cover" />
             </div>
             <h3 className="mt-6 text-xl font-semibold">Robotics Club</h3>
             <p className="mt-3 text-gray-400 text-sm leading-6">
@@ -178,9 +178,9 @@ function App() {
           {/* OOS */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/oos.png" className="h-full w-full object-cover" />
+              <img src="/deema-portfolio/images/oss.jpg" className="h-full w-full object-cover" />
             </div>
-            <h3 className="mt-6 text-xl font-semibold">OOS Club</h3>
+            <h3 className="mt-6 text-xl font-semibold">OSS VISION</h3>
             <p className="mt-3 text-gray-400 text-sm leading-6">
               Event management and leadership.
             </p>
@@ -189,7 +189,7 @@ function App() {
           {/* EJAD */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/ejad.png" className="h-full w-full object-cover" />
+              <img src="/deema-portfolio/images/ejad.jpg" className="h-full w-full object-cover" />
             </div>
             <h3 className="mt-6 text-xl font-semibold">EJAD Club</h3>
             <p className="mt-3 text-gray-400 text-sm leading-6">
@@ -212,36 +212,37 @@ function App() {
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
   <a href="https://github.com/de1mu/web_security_scanner" target="_blank" rel="noopener noreferrer">
     <div className="h-40 w-full rounded-xl overflow-hidden cursor-pointer">
-      <img src="images/security-scanner.png" className="h-full w-full object-cover" />
+      <img src="/deema-portfolio/images/project1.png" className="h-full w-full object-cover" />
     </div>
   </a>
   <h3 className="mt-6 text-xl font-semibold">Simple Web Security Scanner</h3>
   <p className="mt-3 text-gray-400 text-sm leading-6">
-    A Python automation tool that audits websites for HTTPS support, essential security headers, and server info leaks, then generates a clean HTML security report.
-  </p>
+Python | Requests
+A Python-based tool for checking basic website security configurations and generating security reports. </p>
 </div>
 
           {/* Project 2 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
   <a href="https://de1mu.github.io/Himmah-Task-Manager/" target="_blank" rel="noopener noreferrer">
     <div className="h-40 w-full rounded-xl overflow-hidden cursor-pointer">
-      <img src="images/himmah-preview.png" alt="Himmah Task Manager" className="h-full w-full object-cover" />
+      <img src="/deema-portfolio/images/project2.png" alt="Himmah Task Manager" className="h-full w-full object-cover" />
     </div>
   </a>
   <h3 className="mt-6 text-xl font-semibold">Himmah | Task Manager</h3>
   <p className="mt-3 text-gray-400 text-sm leading-6">
-    A interactive task manager that uses gamification (XP points) to boost daily productivity, with real-time Firebase syncing and responsive design.
-  </p>
+HTML | CSS | JavaScript | Firebase
+A web-based task manager with productivity and gamification features.  </p>
 </div>
 
           {/* Project 3 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/project3.png" className="h-full w-full object-cover" />
+              <img src="/deema-portfolio/images/p3.png" className="h-full w-full object-cover" />
             </div>
-            <h3 className="mt-6 text-xl font-semibold">Project Three</h3>
+            <h3 className="mt-6 text-xl font-semibold">IT Risk & Compliance Assessment</h3>
             <p className="mt-3 text-gray-400 text-sm leading-6">
-              Description of your third project goes here.
+              Excel | Power BI | ISO/IEC 27001
+Cybersecurity risk assessment and compliance gap analysis for a simulated university information system.
             </p>
           </div>
 
@@ -261,19 +262,19 @@ function App() {
           {/* Certificate 1 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/cert1.png" className="h-full w-full object-cover" />
+              <img src="/deema-portfolio/images/s1.jpg" className="h-full w-full object-cover" />
             </div>
-            <h3 className="mt-6 text-xl font-semibold">Certificate Title</h3>
-            <p className="mt-3 text-gray-400 text-sm leading-6">Issued by: Organization Name</p>
+            <h3 className="mt-6 text-xl font-semibold">Introduction to Cybersecurity</h3>
+            <p className="mt-3 text-gray-400 text-sm leading-6">Issued by: Cisco Networking Academy</p>
           </div>
 
           {/* Certificate 2 */}
           <div className="group rounded-2xl bg-[#1A1A1A] p-6 hover:scale-105 hover:bg-[#222]">
             <div className="h-40 w-full rounded-xl overflow-hidden">
-              <img src="/images/cert2.png" className="h-full w-full object-cover" />
+              <img src="/deema-portfolio/images/s2.jpg" className="h-full w-full object-cover" />
             </div>
-            <h3 className="mt-6 text-xl font-semibold">Certificate Title</h3>
-            <p className="mt-3 text-gray-400 text-sm leading-6">Issued by: Organization Name</p>
+            <h3 className="mt-6 text-xl font-semibold">Fundamentals of Artificial Intelligence</h3>
+            <p className="mt-3 text-gray-400 text-sm leading-6">Issued by: SDAIA | سدايا</p>
           </div>
 
           {/* Certificate 3 */}
